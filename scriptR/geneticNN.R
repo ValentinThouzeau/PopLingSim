@@ -6,13 +6,13 @@ wd = getwd()
 rg = read.table("outSumStatsRealG.txt", sep="\t", header = T)
 rg = rg[,1:(dim(rg)[2]-1)]
 
-wd = paste(wd, "/scenarioA1/", sep = "")
-wdA2 = paste(wd, "/scenarioA2/", sep = "")
-wdB1 = paste(wd, "/scenarioB1/", sep = "")
-wdB2 = paste(wd, "/scenarioB2/", sep = "")
-wdC = paste(wd, "/scenarioC/", sep = "")
+wdA = paste(wdA, "/scenarioA/", sep = "")
+wd = paste(wdB, "/scenarioB/", sep = "")
+wd = paste(wdC, "/scenarioC/", sep = "")
+wd = paste(wdD, "/scenarioD/", sep = "")
+wd = paste(wdE, "/scenarioE/", sep = "")
 
-wdX = c(wdA1, wdA2, wdB1, wdB2, wdC)
+wdX = c(wdA, wdB, wdC, wdD, wdE)
 
 load("choixModel")
 
