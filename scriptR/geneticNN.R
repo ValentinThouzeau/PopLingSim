@@ -7,10 +7,10 @@ rg = read.table("outSumStatsRealG.txt", sep="\t", header = T)
 rg = rg[,1:(dim(rg)[2]-1)]
 
 wdA = paste(wdA, "/scenarioA/", sep = "")
-wd = paste(wdB, "/scenarioB/", sep = "")
-wd = paste(wdC, "/scenarioC/", sep = "")
-wd = paste(wdD, "/scenarioD/", sep = "")
-wd = paste(wdE, "/scenarioE/", sep = "")
+wdB = paste(wdB, "/scenarioB/", sep = "")
+wdC = paste(wdC, "/scenarioC/", sep = "")
+wdD = paste(wdD, "/scenarioD/", sep = "")
+wdE = paste(wdE, "/scenarioE/", sep = "")
 
 wdX = c(wdA, wdB, wdC, wdD, wdE)
 
