@@ -106,7 +106,6 @@ int main(int argc, char *argv[])
         int tempsMax = -1 ; // tempsMax = -1 implique la spécification des temps de divergence au préalable. Si temps != - 1, ne pas renseigner temps!
         vector<int> temps ;
 
-        // A modifier : pré-tirage uniforme des temps de divergence en fonction de la topologie
         if (tempsMax == -1)
         {
             temps.push_back(0) ;
