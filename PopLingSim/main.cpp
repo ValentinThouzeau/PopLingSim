@@ -37,9 +37,6 @@ int main(int argc, char *argv[])
     int nombreRepetitions = 200000 ;
     int nombreCognats = 185 ; // Spécifier 0 pour imposer un taux de mutation unique par cognat
 
-    // int modele = 0 ; // Modèle d'évolution considéré
-    // vector<double> par ; // Vecteur contenant les paramètres du modèle
-
     // Suppression des potentiels fichiers préexistants
     remove("outSumStatsL.txt") ;
     remove("outParamL.txt") ;
@@ -76,7 +73,7 @@ int main(int argc, char *argv[])
 
 ///___ PARAMETRES DU MODELE ___///
 
-        // Paramètres linuistiques
+        // Paramètres linguistiques
 
         double mutationL = 0.01*randomU(engine) ; // Paramètre de description de la mutation
         double emprunt = 0.1*randomU(engine) ; // Paramètre de description de l'emprunt
